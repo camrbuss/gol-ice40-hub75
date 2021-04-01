@@ -51,7 +51,7 @@ sed -i 's+CLOCK(clk)+CLOCK(clk_24mhz)+g' top.v
 ### Current Device Utilization
 ```
 Info: Device utilisation:
-Info:            ICESTORM_LC:  1341/ 5280    25%
+Info:            ICESTORM_LC:  1615/ 5280    30%
 Info:           ICESTORM_RAM:     0/   30     0%
 Info:                  SB_IO:    14/   96    14%
 Info:                  SB_GB:     7/    8    87%
