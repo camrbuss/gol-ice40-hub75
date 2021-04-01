@@ -1,0 +1,18 @@
+# iCE40UP5K-QFN48 on the iCESugar
+
+set_io clk 35
+
+set_io R0 46
+set_io G0 44
+set_io B0 42
+set_io B1 38
+set_io G1 43
+set_io R1 45
+set_io A0 34
+set_io A1 31
+set_io A2 27
+set_io A3 25
+set_io A4 23
+set_io CK 26
+set_io LA 28
+set_io BL 32
