@@ -13,8 +13,6 @@ The general philosophy was to avoid using any inputs and to have the entire code
 
 In general it takes about 128 clock cycles to preload the matrix with values and about 5000 cycles to determine the next state of the game. With a 24MHz clock speed, this means there is a brief blank period, but in general the "speed" of the game up to about 2000 game cycles a second. This speed could be greatly improved if BRAM was used instead of SPRAM, but currently the Yosys BRAM inference for the iCE40 was not behaving.
 
-
-
 ### top.v
 1. Write the preload data into `os_t_spram` and `os_b_spram` for the top and bottom halves of the display. Each address contains 1/4 of a row
 ```
@@ -67,3 +65,8 @@ Info:            SB_LEDDA_IP:     0/    1     0%
 Info:            SB_RGBA_DRV:     0/    1     0%
 Info:         ICESTORM_SPRAM:     3/    4    75%
 ```
+
+## CAD
+A 3d printable foot that inclines the hub75 is included in the `cad` directory. If you print it, make sure to mirror the part for each side.
+
+![](img/foot.png)
